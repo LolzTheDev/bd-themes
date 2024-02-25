@@ -1,0 +1,66 @@
+/**
+* @name           Integrate
+* @author         LolzTheDev
+* @description    Clean darkmode theme that feels cozy.
+* @website        https://zirc.lol/
+* @version        1.0.0
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans");
+
+:root {
+    --font-primary: "DM Sans", monospace;
+    --font-code: "DM Mono", monospace;
+
+    --accent-color: #29499e;
+    --background-1: #171920;
+    --background-2: #2d2d3c;
+    --background-accent: #333343;
+    --border-color: #404055;
+}
+
+.theme-dark {
+    --background-primary: var(--background-1);
+    --background-primary-alt: var(--background-1);
+    --background-secondary: color-mix(in srgb,var(--background-1),#fff 2%);
+    --background-secondary-alt: color-mix(in srgb,var(--background-1),#fff 2%);
+    --background-tertiary: color-mix(in srgb,var(--background-1),#fff 5%);
+    --background-accent-gradient: var(--background-2);
+    --background-floating: color-mix(in srgb,var(--background-2),#fff 5%);
+    --background-mentioned: #bde6fb10;
+    --background-mentioned-hover: #bde6fb15;
+    --background-modifier-hover: var(--background-accent);
+    --background-modifier-active: #495a63;
+    --background-modifier-selected: var(--background-2);
+    --background-modifier-accent: transparent;
+    --background-message-hover: color-mix(in srgb,var(--background-1),#000 10%);
+    --text-normal: #eceef6;
+    --text-positive: var(--text-normal);
+    --text-muted: #6d8692;
+    --text-link: color-mix(in srgb,var(--accent-color),#2f93ff 50%);
+    --interactive-selected: var(--background-primary);
+    --interactive-active: var(--text-normal);
+    --interactive-normal: var(--text-normal);
+    --interactive-muted: var(--button-background-active);
+    --channels-default: var(--text-muted);
+    --channeltextarea-background: color-mix(in srgb,var(--background-accent),var(--background-1) 75%);
+    --modal-background: var(--background-1);
+    --header-primary: var(--text-normal);
+    --header-secondary: var(--text-muted);
+    --settings-icon-color: #8eacbc;
+    --control-brand-foreground: var(--accent-color);
+    --info-warning-foreground: var(--accent-color);
+    --tab-selected: #354249;
+    --switch: #3d4c53;
+    --activity-card-background: var(--background-1);
+    --brand-experiment: var(--accent-color) !important;
+    --button-background: #2a3439;
+    --button-background-hover: #354249;
+    --button-background-active: #4d5f68;
+    --button-accent: var(--accent-color);
+    --button-accent-hover: #d2f3ff;
+    --button-accent-active: #8dd4f8;
+    --button-destructive: #fb7c7c;
+    --button-destructive-hover: #ff929b;
+    --button-destructive-active: #fa4a4a;
+  }
